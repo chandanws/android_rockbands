@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">rockbands</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="btn_01">A Perfect Circle</string>
+    <string name="btn_02">Tool</string>
+    <string name="btn_03">Nine Inch Nails</string>
+
+</resources>
