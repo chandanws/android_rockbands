@@ -7,5 +7,6 @@
     <string name="btn_01">A Perfect Circle</string>
     <string name="btn_02">Tool</string>
     <string name="btn_03">Nine Inch Nails</string>
+    <string name="title_activity_band_1">Band_1</string>
 
 </resources>
