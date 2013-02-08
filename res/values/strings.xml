@@ -11,5 +11,9 @@
     <string name="btn_home">« Home</string>
     <string name="band_01_name">A Perfect Circle</string>
     <string name="band_01_info">Band band info band info band info</string>
+	
+	<color name="bg_color">#404040</color>
+	<color name="txt_color">#22B6FC</color>
+	<color name="txt_info_color">#F0F0F0</color>	
 
 </resources>

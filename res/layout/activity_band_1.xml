@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    
+    android:background="@color/bg_color"
 	android:gravity="center_horizontal"
     tools:context=".Band_1" >
     <!--
@@ -15,37 +15,44 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:text="@string/btn_home" />
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/home"
-        android:gravity="center"
-        android:text="@string/band_01_name"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:text="@string/btn_home"
+        android:background="@drawable/custom_button"
+        android:textColor="@color/txt_info_color" />
+    
 
     <ImageView
         android:contentDescription="band image"
-        android:id="@+id/imageView1"
+        android:id="@+id/bandImage1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
+        android:layout_below="@+id/bandName1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="34dp"
         android:src="@drawable/a_perfect_circle" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/bandInfo1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/imageView1"
+        android:layout_below="@+id/bandImage1"
         android:layout_marginTop="36dp"
         android:gravity="center"
         android:text="@string/band_01_info"
-        android:textAppearance="?android:attr/textAppearanceSmall" />
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/txt_info_color" />
+
+    <TextView
+        android:id="@+id/bandName1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/home"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/band_01_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/txt_color"
+        android:textSize="@dimen/title_size" />
 
 </RelativeLayout>
