@@ -2,45 +2,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_horizontal"
+    
+	android:gravity="center_horizontal"
     tools:context=".Band_1" >
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/textView3"
-        android:layout_alignLeft="@+id/button1"
-        android:layout_marginBottom="139dp"
-        android:text="Band band info band info band info"
-        android:textAppearance="?android:attr/textAppearanceSmall" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="49dp"
-        android:layout_toRightOf="@+id/button1"
-        android:text="@string/hello_world" />
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/home"
-        android:layout_below="@+id/home"
-        android:layout_marginLeft="38dp"
-        android:layout_marginTop="69dp"
-        android:text="Band Name"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-
+    <!--
+    	strange error when layout property placed there ^^
+    -->
+    
     <Button
         android:id="@+id/home"
         android:layout_width="96dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="0dp"
         android:layout_alignParentLeft="true"
-        android:text="« Home" />
+        android:layout_alignParentTop="true"
+        android:text="@string/btn_home" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/home"
+        android:gravity="center"
+        android:text="@string/band_01_name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:contentDescription="band image"
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:src="@drawable/a_perfect_circle" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:text="@string/band_01_info"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
 
 </RelativeLayout>

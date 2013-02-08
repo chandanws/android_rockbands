@@ -8,5 +8,8 @@
     <string name="btn_02">Tool</string>
     <string name="btn_03">Nine Inch Nails</string>
     <string name="title_activity_band_1">Band_1</string>
+    <string name="btn_home">« Home</string>
+    <string name="band_01_name">A Perfect Circle</string>
+    <string name="band_01_info">Band band info band info band info</string>
 
 </resources>
