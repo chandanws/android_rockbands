@@ -7,9 +7,6 @@ import android.widget.Button;
 import android.app.Activity;
 import android.content.Intent;
 
-//youtube video http://stackoverflow.com/questions/4654878/how-to-play-youtube-video-in-my-android-application
-// change buttons http://stackoverflow.com/questions/5266810/how-do-i-change-the-style-of-a-button-in-android
-// left to right animation: http://stackoverflow.com/questions/5151591/android-left-to-right-slide-animation
 public class Band_1 extends Activity {
 
 	@Override
