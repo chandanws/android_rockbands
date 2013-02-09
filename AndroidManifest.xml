@@ -25,6 +25,14 @@
             android:name=".Band_1"
             android:label="@string/title_activity_band_1" >
         </activity>
+        <activity
+            android:name=".Band_2"
+            android:label="@string/title_activity_band_2" >
+        </activity>
+        <activity
+            android:name=".Band_3"
+            android:label="@string/title_activity_band_3" >
+        </activity>
     </application>
 
 </manifest>

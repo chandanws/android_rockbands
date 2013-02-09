@@ -9,7 +9,7 @@
     android:layout_height="wrap_content"
     android:background="@color/bg_color"
 	android:gravity="center_horizontal"
-    tools:context=".Band_1" >
+    tools:context=".Band_3" >
     <!--
     	strange error when layout property placed there ^^
     -->
@@ -24,35 +24,35 @@
         android:background="@drawable/custom_button" />
 
     <ImageView
-        android:id="@+id/bandImage1"
+        android:id="@+id/bandImage3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/bandName1"
+        android:layout_below="@+id/bandName3"
         android:layout_centerHorizontal="true"
         android:contentDescription="@string/img_content_description"
-        android:src="@drawable/a_perfect_circle" />
+        android:src="@drawable/nine_inch_nails" />
 
     <TextView
-        android:id="@+id/bandName1"
+        android:id="@+id/bandName3"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/home"
         android:gravity="center"
-        android:text="@string/band_01_name"
+        android:text="@string/band_03_name"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@color/txt_color"
         android:padding="10dp"
         android:textSize="@dimen/title_size" />
 
     <TextView
-        android:id="@+id/bandInfo1"
+        android:id="@+id/bandInfo3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/bandImage1"
+        android:layout_below="@+id/bandImage3"
         android:gravity="left"
-        android:text="@string/band_01_info"
+        android:text="@string/band_03_info"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:padding="30dp"
         android:textColor="@color/txt_info_color" />

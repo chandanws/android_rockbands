@@ -1,7 +1,13 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_color" >
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bg_color"
     android:paddingBottom="@dimen/bottom_padding"
     tools:context=".MainActivity" >
 
@@ -13,32 +19,44 @@
         android:layout_centerHorizontal="true"
         android:paddingBottom="@dimen/bottom_padding"
         android:text="Rock Bands"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/title_size" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/big_btn_height"
+        android:background="@drawable/custom_button"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/button2"
         android:layout_marginTop="37dp"
+        android:textSize="@dimen/txt_medium"
+        android:textColor="@color/txt_color"
         android:text="@string/btn_03" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/big_btn_height"
+        android:background="@drawable/custom_button"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/button1"
         android:layout_marginTop="44dp"
+        android:textSize="@dimen/txt_medium"
+        android:textColor="@color/txt_color"
         android:text="@string/btn_02" />
 
     <Button
         android:id="@+id/button1"
+        android:layout_height="@dimen/big_btn_height"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/mainHeader"
+        android:background="@drawable/custom_button"
+        android:textSize="@dimen/txt_medium"
+        android:textColor="@color/txt_color"
         android:text="@string/btn_01" />
 
 </RelativeLayout>
+</ScrollView>

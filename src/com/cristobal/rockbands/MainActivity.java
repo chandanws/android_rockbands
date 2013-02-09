@@ -23,6 +23,25 @@ public class MainActivity extends Activity {
 				startActivity(new Intent(MainActivity.this, Band_1.class));
 			}
 		});
+        
+        Button b2 = (Button) findViewById(R.id.button2);
+        b2.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				startActivity(new Intent(MainActivity.this, Band_2.class));
+			}
+		});       
+
+        Button b3 = (Button) findViewById(R.id.button3);
+        b3.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				startActivity(new Intent(MainActivity.this, Band_3.class));
+			}
+		}); 
+        
     }
 
     @Override

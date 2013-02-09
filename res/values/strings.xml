@@ -7,11 +7,22 @@
     <string name="btn_01">A Perfect Circle</string>
     <string name="btn_02">Tool</string>
     <string name="btn_03">Nine Inch Nails</string>
+    
     <string name="title_activity_band_1">Band_1</string>
+    <string name="title_activity_band_2">Band_2</string>
+    <string name="title_activity_band_3">Band_3</string>
     <string name="btn_home">« Home</string>
+    <string name="img_content_description">band image</string>
+    
     <string name="band_01_name">A Perfect Circle</string>
-    <string name="band_01_info">Band band info band info band info</string>
+    <string name="band_01_info">A Perfect Circle is an American rock/metal supergroup formed in 1999 by guitarist Billy Howerdel and Tool vocalist Maynard James Keenan. The original incarnation of the band also included Paz Lenchantin on bass, Troy Van Leeuwen on guitar, and Tim Alexander on drums. The latest lineup features Puscifer and Ashes Divide bassist Matt McJunkins, former guitarist for The Smashing Pumpkins, James Iha. Despite having a varied cast since inception, the stylistic content of the songs has remained consistent with Howerdel as composer, and Keenan penning the lyrics and melodies.</string>
+    <string name="band_02_name">Tool</string>
+    <string name="band_02_info">Tool is an American rock band from Los Angeles, California. Formed in 1990, the group\'s line-up has included drummer Danny Carey, guitarist Adam Jones, and vocalist Maynard James Keenan. Since 1995, Justin Chancellor has been the band\'s bassist, replacing their original bassist Paul D\'Amour. Tool has won three Grammy Awards, performed worldwide tours, and produced albums topping the charts in several countries.</string>
+    <string name="band_03_name">Nine Inch Nails</string>
+    <string name="band_03_info">Nine Inch Nails (abbreviated as NIN, sometimes stylized as NIИ) is an American industrial rock project, founded in 1988 by Trent Reznor in Cleveland, Ohio. As its main producer, singer, songwriter, and instrumentalist, Reznor is the only official member of Nine Inch Nails and remains solely responsible for its direction.[1] Nine Inch Nails\' music straddles a wide range of genres. After recording a new album, Reznor (until the 2009 Wave Goodbye Tour) usually assembles a live band to perform with him.</string>
 	
+    
+    
 	<color name="bg_color">#404040</color>
 	<color name="txt_color">#22B6FC</color>
 	<color name="txt_info_color">#F0F0F0</color>	
